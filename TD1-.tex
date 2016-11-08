@@ -1,0 +1,55 @@
+\documentclass[12pt]{TDTP}
+
+
+\newcommand{\auteur}{C\'edric Lemaitre}
+\newcommand{\couriel}{c.lemaitre58@gmail.com}
+\newcommand{\promo}{Bachelor in Computer Vision}
+\newcommand{\annee}{2016-2017}
+\newcommand{\matiere}{Computer Aided Design 1}
+
+\newcommand{\tdtp}{Practice Exam}
+\renewcommand{\sujet}{Intro to Matlab}
+
+
+\begin{document}
+\titre
+
+\textbf{NOTE}\\
+For each question you shall create a script, for example \texttt{question1.m}, containing all commands to answer the questions.
+
+Ask me for each question in order to valide!
+
+%%%%%%%%%%%%
+\Exo
+Make the following variables
+\begin{enumerate}
+\item $a = \begin{bmatrix} 2.59 \; 12 \; 69 \; 32 \end{bmatrix}$
+\item $b = \begin{bmatrix} 2.74 \\ 9.3 \\ 2 \\ 79\\ \end{bmatrix}$
+ \item $c = \begin{bmatrix} 12 \\ 11.5 \\ \vdots \\ -11.5\\ -12 \\ \end{bmatrix}$ (all the numbers from 12 to -12 in increments of -0.5).
+ \item $A = \begin{bmatrix} 
+ 10 & \ldots & 10 \\ 
+ \vdots & \ddots & \vdots\\ 
+ 10 & \ldots & 10 \\
+ \end{bmatrix}$ a $10\times 10$ matrix full of 10's
+\item $B = \begin{bmatrix} 
+ 5 & 0 & \ldots & & 0 \\ 
+ 0 & \ddots & 0 \ddots & \\ 
+ \vdots & 0 & 1 & 0 & \vdots \\
+  & \ddots & 0 & \ddots & 0 \\
+  0 &  & \ldots & 0 & 5\\
+ \end{bmatrix}$ 
+ a $9\times 9$ matrix of all zeros, but with the values $[5 \; 4 \; 3 \;  2 \; 1 \;  2 \;  3 \;  4 \;  5]$ on the main diagonal, use \textbf{zeros} and \textbf{diag}.
+ \item Create a $3\times 3$ matrix $D$ of random integers with values on the range -100 to 100.
+\end{enumerate}
+
+
+%%%%%%%%%%%%
+\Exo
+Given the following function
+$$
+s = a \cos(\phi) + \sqrt{b^2 - (a\sin(\phi)-c)^2}
+$$
+Plot $s$ as a function of the angle $\phi$ when $a=1$, $b=1.5$, $c=0.3$, and $0\leq \phi \leq 360°$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
